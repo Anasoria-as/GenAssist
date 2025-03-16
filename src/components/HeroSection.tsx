@@ -60,7 +60,7 @@ const HeroSection = () => {
             <span>Comprar Ahora</span>
           </button>
           <button className="btn-primary bg-white !text-primary hover:bg-white/90">
-            <span className="text-white">Saber Más</span>
+            <span className="!text-primary">Saber Más</span>
           </button>
         </div>
         
