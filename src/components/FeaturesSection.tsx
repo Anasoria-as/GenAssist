@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Flower, ShieldAlert, CloudRain, Home, Bot } from 'lucide-react';
+import { Flower, ShieldAlert, CloudRain, Home, Bot, Heart } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
 const FeaturesSection = () => {
@@ -60,6 +60,12 @@ const FeaturesSection = () => {
       title: "Asistente Virtual con IA",
       description: "Reproduce música, recuerda eventos del calendario y proporciona información en tiempo real.",
       colorClass: "from-genassist-violet to-genassist-pink"
+    },
+    {
+      icon: Heart,
+      title: "Monitoreo de Salud",
+      description: "Seguimiento de constantes vitales, recordatorios de medicación y sugerencias para mantener hábitos saludables.",
+      colorClass: "from-red-400 to-pink-600"
     }
   ];
 
