@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Plant, ShieldAlert, CloudRain, Home, Bot } from 'lucide-react';
+import { Flower, ShieldAlert, CloudRain, Home, Bot } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
 const FeaturesSection = () => {
@@ -32,7 +32,7 @@ const FeaturesSection = () => {
 
   const features = [
     {
-      icon: Plant,
+      icon: Flower,
       title: "Cuidado de Plantas",
       description: "Monitoreo y recomendaciones personalizadas para mantener tus plantas saludables y florecientes.",
       colorClass: "from-green-400 to-emerald-600"
