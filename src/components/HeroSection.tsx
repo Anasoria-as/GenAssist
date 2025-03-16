@@ -38,7 +38,7 @@ const HeroSection = () => {
       {/* Hero content */}
       <div 
         ref={heroRef}
-        className="container mx-auto px-6 pt-24 z-10 flex flex-col items-center justify-center text-center"
+        className="container mx-auto px-6 pt-32 z-10 flex flex-col items-center justify-center text-center"
       >
         <div className="inline-block mb-4 px-6 py-2 bg-primary/10 rounded-full animate-fade-in">
           <span className="text-primary font-medium">Tu hogar inteligente, más inteligente</span>
@@ -60,7 +60,7 @@ const HeroSection = () => {
             <span>Comprar Ahora</span>
           </button>
           <button className="btn-primary bg-white !text-primary hover:bg-white/90">
-            <span>Saber Más</span>
+            <span className="text-white">Saber Más</span>
           </button>
         </div>
         
